@@ -8,5 +8,5 @@
 
 <br>
 
-<img src="https://blog.kakaocdn.net/dn/d01jEn/btsOv6Zphne/27CiDrf3OBpZ3vF4WKxwx1/img.gif">
-![crazy](https://blog.kakaocdn.net/dn/dozmsK/btsOyr8xJu4/gLfC2fXWpkqXLyE8hbS4U1/img.gif)
+<img src="https://blog.kakaocdn.net/dn/dozmsK/btsOyr8xJu4/gLfC2fXWpkqXLyE8hbS4U1/img.gif" alt="설명 텍스트" width="400">
+
