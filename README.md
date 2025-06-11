@@ -8,5 +8,4 @@
 
 <br>
 
-<img src="https://blog.kakaocdn.net/dn/dozmsK/btsOyr8xJu4/gLfC2fXWpkqXLyE8hbS4U1/img.gif" alt="설명 텍스트" width="400">
-
+<img src="https://blog.kakaocdn.net/dn/I1qnx/btsOy0iylXG/yI5fdQFxjtaMf1TVAaIpFk/img.gif">
