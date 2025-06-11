@@ -8,8 +8,5 @@
 
 <br><br>
 <br><br>
-<br><br>
-<br><br>
-<br><br>
 
 <img src="https://blog.kakaocdn.net/dn/dozmsK/btsOyr8xJu4/gLfC2fXWpkqXLyE8hbS4U1/img.gif">
