@@ -1,0 +1,122 @@
+body {
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px 0 10px 0;
+}
+
+#pong {
+    background: #000;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 40px #000 inset;
+}
+
+.scoreboard {
+    color: #ffe017;
+    font-size: 2.6em;
+    margin: 14px 0;
+    letter-spacing: 8px;
+    text-shadow: 0 2px 12px #000, 0 0px 20px #fff;
+}
+
+.buttons {
+    margin-top: 18px;
+}
+
+.skill-btn {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px 25px;
+    margin: 0 8px;
+    border: 3px solid #fff;
+    border-radius: 12px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skill-btn span {
+    position: relative;
+    z-index: 2;
+    display: block;
+    text-align: center;
+}
+
+.skill-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.tralalero-btn {
+    background-image: url('./image1.png');
+    border-color: #1aeaff;
+}
+
+.tralalero-btn:hover {
+    transform: scale(1.05);
+    border-color: #00ffff;
+    box-shadow: 0 6px 25px rgba(26, 234, 255, 0.5);
+}
+
+.tralalero-btn:hover::before {
+    background: rgba(26, 234, 255, 0.2);
+}
+
+.bombardilo-btn {
+    background-image: url('./image2.png');
+    border-color: #ff5500;
+}
+
+.bombardilo-btn:hover {
+    transform: scale(1.05);
+    border-color: #ffaa00;
+    box-shadow: 0 6px 25px rgba(255, 85, 0, 0.5);
+}
+
+.bombardilo-btn:hover::before {
+    background: rgba(255, 85, 0, 0.2);
+}
+
+.sahur-btn {
+    background-image: url('./image3.png');
+    border-color: #ff0000;
+}
+
+.sahur-btn:hover {
+    transform: scale(1.05);
+    border-color: #ff4444;
+    box-shadow: 0 6px 25px rgba(255, 0, 0, 0.5);
+    animation: horror-glow 0.5s ease-in-out infinite alternate;
+}
+
+.sahur-btn:hover::before {
+    background: rgba(255, 0, 0, 0.2);
+}
+
+@keyframes horror-glow {
+    0% { box-shadow: 0 6px 25px rgba(255, 0, 0, 0.5); }
+    100% { box-shadow: 0 6px 35px rgba(255, 0, 0, 0.8); }
+}

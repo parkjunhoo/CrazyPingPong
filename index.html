@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>cRaZy pInG ponG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>carzy ping Pong Game</h1>
+    <canvas id="pong" width="800" height="500"></canvas>
+    <div class="scoreboard">
+        <span id="score-left">0</span>
+        :
+        <span id="score-right">0</span>
+    </div>
+    <div class="buttons">
+        <button class="skill-btn tralalero-btn" onclick="useSkill('tralalero')">
+            <span>TRALALERO TRALALA</span>
+        </button>
+        <button class="skill-btn bombardilo-btn" onclick="useSkill('bombardilo')">
+            <span>BOMBARDIRO CROCODILO</span>
+        </button>
+        <button class="skill-btn sahur-btn" onclick="useSkill('sahur')">
+            <span>TUNG TUNG TUNG SAHUR</span>
+        </button>
+    </div>
+    <img id="tralalero-img" src="./image1.png" style="display:none">
+    <img id="bombardilo-img" src="./image2.png" style="display:none">
+    <img id="sahur-img" src="./image3.png" style="display:none">
+    <script src="game.js"></script>
+</body>
+</html>
